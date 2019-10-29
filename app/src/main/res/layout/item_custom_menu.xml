@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:paddingStart="@dimen/forth_margin"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/forth_margin"
+        android:background="@drawable/bg_menu_item"
+        android:textColor="@drawable/tv_color_menu_item"
+        android:text="@string/nav_title_1"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/icon_1"
+        android:tint="@drawable/tv_color_tint_item"
+        android:layout_margin="@dimen/forth_margin"/>
+</RelativeLayout>

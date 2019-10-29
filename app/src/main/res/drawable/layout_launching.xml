@@ -1,0 +1,8 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- The background color, preferably the same as your normal theme -->
+    <item android:drawable="@color/ic_launcher_background"/>
+
+    <item
+        android:drawable="@drawable/icon_all"
+        android:gravity="center"/>
+</layer-list>
